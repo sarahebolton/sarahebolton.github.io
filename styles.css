@@ -441,9 +441,18 @@ section {
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    max-width: 1000px;
-    margin: 0 auto;
+    gap: 2rem;
+    align-items: start;
+}
+
+.centered-contact {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+
+.centered-contact .contact-info {
+    max-width: 600px;
 }
 
 .contact-info {
@@ -618,7 +627,7 @@ section {
         grid-template-columns: 1fr;
     }
 
-    .contact-content {
+    .contact-content, .centered-contact {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
