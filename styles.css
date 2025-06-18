@@ -464,7 +464,16 @@ section {
 .contact-item {
     display: flex;
     gap: 1rem;
-    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f8fafc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
 }
 
 .contact-icon {
@@ -485,15 +494,21 @@ section {
 .social-links {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .social-links a {
     color: #2563eb;
     font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #f0f5ff;
+    transition: background-color 0.3s ease;
 }
 
 .social-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #dbeafe;
 }
 
 /* Form */
