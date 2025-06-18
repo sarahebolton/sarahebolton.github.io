@@ -1,6 +1,6 @@
 # Sarah Bolton - Personal Website
 
-A modern, responsive personal website for Sarah Bolton, Animal Welfare Researcher and PhD Candidate at the University of British Columbia.
+A modern, responsive personal website for Sarah Bolton, Animal Welfare Researcher and Postdoctoral Research Fellow at the University of British Columbia.
 
 ## About
 

@@ -396,6 +396,22 @@ section {
     margin-bottom: 0.5rem;
 }
 
+.publication-doi {
+    color: #374151;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-doi a {
+    color: #2563eb;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.publication-doi a:hover {
+    text-decoration: underline;
+}
+
 .publication-metrics {
     display: flex;
     gap: 1rem;
