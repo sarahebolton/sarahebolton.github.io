@@ -2,7 +2,7 @@
 
 This directory contains image assets for Sarah Bolton's personal website.
 
-## Recommended Images
+## Recommended Image
 
 - **Profile photo**: A professional headshot (300x300px recommended)
 - **Research images**: Photos related to animal welfare research
