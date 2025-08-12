@@ -825,3 +825,19 @@ section {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
 } 
+
+/* Warm text overrides for publications and contact */
+.publication-authors,
+.publication-journal,
+.publication-doi,
+.citation-count {
+    color: var(--muted) !important;
+}
+
+.publication-doi a {
+    color: var(--accent);
+}
+
+.contact-details p {
+    color: var(--muted) !important;
+} 
